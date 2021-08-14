@@ -1,0 +1,226 @@
+<!--LINK TO VIDEO-- https://spark.adobe.com/video/pMlJHzMcmY4BB -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>YashYadav- Web Developer</title>
+</head>
+<body>
+  <nav id="top">
+    <div class="container">
+      <div class="navbar flex">
+        <div class="logo flex">
+          <img src="./logo.png" alt="" width="25px" height="25px"><span> Yash Yadav</span>
+        </div>
+        <div class="menu">
+          <ul class="flex">
+            <li><a href="#aboutMe">About Me</a></li><span>|</span>
+            <li><a href="#honesty">Honesty</a></li><span>|</span>
+            <li><a href="#contact">Contact Me</a></li><span>|</span>
+            <li><a href="./reume.pdf" target="_blank">Resume</a></li><span>|</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="header">
+      <div class="container">
+        <div class="image flex">
+          <img src="./profile_picture.jpeg" alt="Profile-Picture">
+        </div>
+        <div class="name flex">
+          <h1> <\Yash Yadav> </h1>
+          <p>Web Developer</p>
+        </div>
+        <div class="button-section">
+          <div class="button flex">
+            <a href="./reume.pdf" target="_blank" class="flex">
+              <i class="fa fa-download" aria-hidden="true"></i>
+              <span>Resume</span>
+            </a>
+            <a href="#contact" class="flex">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>Contact me</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-me" id="aboutMe">
+      <div class="part-1">
+        <div class="container flex">
+          <div class="description">
+            <h2>About Me</h2>
+            <p> Hello there, I am Yash Yadav. I am student at Seneca College,North York,ON
+              pursuing Advanced Diploma in Computer Science. I was always quite intrigued by 
+              "How Internet and Websites Work?",Hence I became keen on learning Web Design and Development.
+                I would love to develop amazing Websites and Web-Applications. I am still learning bit by bit and always
+                ready to take on new challenges that life throw at me.
+            </p>
+            <h3>Date : 14-08-2021</h3>
+          </div>
+          <div class="honesty" id="honesty">
+            <h2>Academic Honesty</h2>
+            <p>
+              I declare that my assessment is wholly my own work in accordance with Seneca Academic
+              Policy. No part of this assessment has been copied manually or electronically from any other
+              source (including web sites) except for the information supplied by the WEB222 instructors
+              and / or made available in this assessment for my use. I also declare that no part of this
+              assignment has been distributed to other students
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education-section">
+      <div class="education">
+        <div class="container flex">
+          <div class="basic flex">
+            <h2>Basic Information</h2>
+            <ul>
+              <li>Student Id : 116431206</li>
+              <li>Email Id : yyadav7999@gmail.com</li>
+              <li>Age : 20</li>
+              <li>Div : NFF</li>
+              <li>Instructor : Nima Mahmoudi</li>
+              <li>Languages : English,Hindi,Gujarati</li>
+            </ul>
+          </div>
+        
+          <div class="ed flex">
+            <h2>Education</h2>
+            <div class= "ed-sections">
+              <div class="rows">
+                <div class="head"> 
+                  <h4>(2020-2023) <span>Expected</span></h4>
+                  <h3>Diploma</h3>
+                </div>
+                <div class="tail">
+                  <h4>Seneca College</h4>
+                  <p> </p>
+                </div>
+              </div>
+              <div class="rows">
+                <div class="head">
+                  <h4>(2017-2019)</h4>
+                  <h3>Higher Secondary</h3>
+                </div>
+                <div class="tail">
+                  <h4>The H.B.K New High School</h4>
+                  <p>Under Supervision of Monica Sharma.</p>
+                </div>
+              </div>
+              <div class="rows">
+                <div class="head">
+                  <h4>(2015-2017)</h4>
+                  <h3>Secondary Education</h3>
+                </div>
+                <div class="tail">
+                  <h4>The H.B.K New High School</h4>
+                  <p>Under Supervision of Monica Sharma.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="vertical-line"></div>
+    </section>
+    <!-- CONTACT ME SECTION -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-heading">
+          <h2>Contact Me</h2>
+          <p><em>Let's Work Together</em></p>
+        </div>
+        <div class="form-section">
+          <div class="form">
+            <form action="https://httpbin.org/post" method="POST" class="grid" id="Form-contact">
+              <div class="col-1">
+                <label for="name">Name</label>
+                <input type="text" class="form-input" name="name" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-2">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              
+              <div class="col-3">
+                <label for="City">City</label>
+                <input list="cities" name="City" id="City" placeholder="Choose Your City" required>
+                <datalist id="cities">
+                  <option value="Toronto"></option>
+                  <option value="Quebec"></option>
+                  <option value="Montreal"></option>
+                  <option value="Ottawa"></option>
+                  <option value="Vancouver"></option>
+                  <option value="Calgary"></option>
+                </datalist>
+              </div>
+              <div class="col-4">
+                <label for="Postalcode">Postal Code</label>
+                <input name="Postalcode" type="text" id="Posta" placeholder="M1A 656"  required>
+              </div>
+              <div class="col-5">
+                <label for="address" id="ad">Address</label>
+                <textarea name="address" id="address" rows="5" placeholder="Your Address" required></textarea>
+              </div>
+              <div class="radio-col flex ">
+                  <div class="r1 ">
+                    <input type="radio" name="type" id="type-1" value="question" checked required>
+                    <label for="type-1">Question</label>
+                  </div>
+                  <div class="r2 ">
+                    <input type="radio" name="type" id="type-2" value="comment" required>
+                    <label for="type-2">Comment</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="type" id="type-3" value="hiring" required>
+                    <label for="type-3">Hiring</label>
+                  </div>
+              </div>
+              <div class="radio-col flex" id="RPH_div" style="display: none;">
+                <label for="input_RPH">Hourly Rate</label>
+                <input  type="number" id="input_RPH" placeholder="15$/hour" name="rate" min="5">
+              </div>
+              <div class="col-6">
+                <textarea name="message" id="message" rows="10" placeholder="Enter Your Message Here...."></textarea>
+              </div>
+              <div class="button">
+                <button name="Send">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="foot">
+        <div class="container">
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100037722983194"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/frosttt0603"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/yaxsshh/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/yash-yadav-47290318b"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          </div>
+          <div class="foot-logo">
+            <h3><a href="#top">Back to top</h3>
+              </div><hr>
+              <img src="./logo.png" alt="" width="25px" height="25px"><span>Design and Developed by Yash Yadav &copy;2021</span></a></h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main> 
+  <script src="/app.js"></script>
+  <script src="https://use.fontawesome.com/7e2757e6d0.js"></script>
+</body>
+</html>

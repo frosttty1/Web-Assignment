@@ -50,7 +50,7 @@ body {
 nav {
   background: linear-gradient(to right, #c4daff, #f1f6ff, #c4dbff);
   color: var(--dark);
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .navbar .logo span {
